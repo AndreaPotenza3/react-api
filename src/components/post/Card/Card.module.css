@@ -1,0 +1,41 @@
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    max-height: 280px;
+}
+
+.description {
+    line-height: 1.5rem;
+}
+
+.down_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn {
+    background-color: #DAA521;
+    color: white;
+    border: none;
+    padding: 0.7rem 0.9rem;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
